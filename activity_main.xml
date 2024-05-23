@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="194dp">
+
+        <CheckBox
+            android:id="@+id/mon"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="월요일"
+            android:textSize="15sp" />
+
+
+        <CheckBox
+            android:id="@+id/tue"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="화요일"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/wedn"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="수요일"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/thur"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="목요일"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/fri"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="금요일"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/sat"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="토요일"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/sun"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="일요일"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="등록" />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
